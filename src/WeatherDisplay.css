@@ -1,0 +1,23 @@
+/* Стили для текущей погоды */
+.current-weather {
+  border: 1px solid #ccc;
+  padding: 10px;
+  margin-bottom: 20px;
+  display: inline-block;
+}
+
+/* Стили для списка прогноза */
+.forecast-list {
+  display: flex;
+  flex-wrap: nowrap;
+  overflow-x: auto;
+}
+
+/* Стили для элемента прогноза */
+.forecast-item {
+  border: 1px solid #ccc;
+  padding: 10px;
+  margin-right: 10px;
+  flex: 0 0 auto;
+  white-space: nowrap;
+}

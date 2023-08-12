@@ -1,0 +1,45 @@
+.App {
+  text-align: center;
+}
+
+.App-logo {
+  height: 40vmin;
+  pointer-events: none;
+}
+
+@media (max-width: 767px) {
+  .App {
+    font-size: 16px;
+  }
+}
+
+@media (min-width: 768px) {
+  .App {
+    font-size: 20px;
+  }
+}
+
+.App-header {
+  background-image: url('./images/header-bg.jpg');
+  background-size: cover;
+  background-position: center;
+  height: 200px; /* Высота хэдера */
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  color: white;
+  font-size: 24px;
+}
+
+.App-link {
+  color: #61dafb;
+}
+
+@keyframes App-logo-spin {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}
