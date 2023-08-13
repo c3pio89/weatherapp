@@ -29,3 +29,10 @@
   flex: 0 0 auto;
   white-space: nowrap;
 }
+
+@media (max-width: 600px) {
+  input[type="text"] {
+    margin-right: 0;
+    margin-bottom: 10px;
+  }
+}
