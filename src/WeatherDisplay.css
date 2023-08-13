@@ -21,3 +21,11 @@
   flex: 0 0 auto;
   white-space: nowrap;
 }
+
+.time-column {
+  border: 1px solid #ccc;
+  padding: 10px;
+  margin-right: 10px;
+  flex: 0 0 auto;
+  white-space: nowrap;
+}
