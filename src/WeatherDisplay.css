@@ -9,7 +9,7 @@
 /* Стили для списка прогноза */
 .forecast-list {
   display: flex;
-  flex-wrap: nowrap;
+  flex-wrap: wrap;
   overflow-x: auto;
 }
 
